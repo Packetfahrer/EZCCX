@@ -31,7 +31,7 @@ static BOOL requestsUpSwipe = NO;
 
 static void reloadSetting(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo) {
 
-	requestsUpSwipe = CFPreferencesCopyAppValue((CFStringRef)@"RequestsSwipeUp", CFSTR("com.cpdigitaldarkroom.ezccx"));
+	requestsUpSwipe = [(id)CFPreferencesCopyAppValue((CFStringRef)@"RequestsSwipeUp", CFSTR("com.cpdigitaldarkroom.ezccx")) boolValue];
 }
 
 %ctor {
