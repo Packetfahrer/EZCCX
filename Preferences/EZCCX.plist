@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<false/>
+		<key>defaults</key>
+		<string>com.cpdigitaldarkroom.ezccx</string>
+		<key>icon</key>
+		<string>EZCCX.png</string>
+		<key>key</key>
+		<string>RequestsSwipeUp</string>
+		<key>label</key>
+		<string>EZCCX - Up Swipe</string>
+		<key>PostNotification</key>
+		<string>com.cpdigitaldarkroom.ezccx.settingschanged</string>
+	</dict>
+</dict>
+</plist>

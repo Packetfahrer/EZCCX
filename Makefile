@@ -17,3 +17,6 @@ after-stage::
 
 after-install::
 	install.exec "killall -9 SpringBoard"
+
+SUBPROJECTS += Preferences
+include $(THEOS_MAKE_PATH)/aggregate.mk
